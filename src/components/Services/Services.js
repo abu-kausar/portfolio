@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Services.css';
 
 const Services = () => {
+
+    const [toggle, setToggle] = useState(0);
+
+    const toggleTab = (index) => {
+        setToggle(index);
+    }
+
     return (
         <section className="services section" id='services'>
             <h1 className="section__title">Services</h1>
@@ -11,7 +18,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-web-grid services__icon"></i>
-                        <h3 className="services__title">Lorem, ipsum dolor.</h3>
+                        <h3 className="services__title">Lorem, <br /> ipsum dolor.</h3>
                     </div>
 
                     <span className="services__button">View More
@@ -27,7 +34,23 @@ const Services = () => {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo mollitia recusandae dolore accusamus aut cum asperiores, illo magni totam debitis ipsam saepe! Iusto quis inventore possimus ducimus porro pariatur quos.
                             </p>
 
-                            <ul className="services__modal-servicesgrid">
+                            <ul className="services__modal-services grid">
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+
+                                    <p className="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </li>
+
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+
+                                    <p className="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </li>
+
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
 
@@ -59,7 +82,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon"></i>
-                        <h3 className="services__title">Lorem, ipsum dolor.</h3>
+                        <h3 className="services__title">Lorem, <br /> ipsum dolor.</h3>
                     </div>
 
                     <span className="services__button">View More
@@ -75,7 +98,23 @@ const Services = () => {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo mollitia recusandae dolore accusamus aut cum asperiores, illo magni totam debitis ipsam saepe! Iusto quis inventore possimus ducimus porro pariatur quos.
                             </p>
 
-                            <ul className="services__modal-servicesgrid">
+                            <ul className="services__modal-services grid">
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+
+                                    <p className="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </li>
+
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+
+                                    <p className="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </li>
+
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
 
@@ -107,7 +146,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-edit services__icon"></i>
-                        <h3 className="services__title">Lorem, ipsum dolor.</h3>
+                        <h3 className="services__title">Lorem, <br /> ipsum dolor.</h3>
                     </div>
 
                     <span className="services__button">View More
@@ -123,7 +162,23 @@ const Services = () => {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo mollitia recusandae dolore accusamus aut cum asperiores, illo magni totam debitis ipsam saepe! Iusto quis inventore possimus ducimus porro pariatur quos.
                             </p>
 
-                            <ul className="services__modal-servicesgrid">
+                            <ul className="services__modal-services grid">
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+
+                                    <p className="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </li>
+
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+
+                                    <p className="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </li>
+
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
 
