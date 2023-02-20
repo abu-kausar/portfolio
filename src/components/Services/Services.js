@@ -3,10 +3,10 @@ import './Services.css';
 
 const Services = () => {
 
-    const [toggle, setToggle] = useState(0);
+    const [toggleState, setToggleState] = useState(0);
 
     const toggleTab = (index) => {
-        setToggle(index);
+        setToggleState(index);
     }
 
     return (
@@ -21,13 +21,13 @@ const Services = () => {
                         <h3 className="services__title">Lorem, <br /> ipsum dolor.</h3>
                     </div>
 
-                    <span className="services__button">View More
+                    <span className="services__button" onClick={() => toggleTab(1)}>View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    <div className="services__modal">
+                    <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
                         <div className="services__modal-content">
-                            <i className="uil uil-times services__modal-close"></i>
+                            <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
                             
                             <h3 className="services__modal-title">Lorem, ipsum.</h3>
                             <p className="services__modal-description">
@@ -85,13 +85,13 @@ const Services = () => {
                         <h3 className="services__title">Lorem, <br /> ipsum dolor.</h3>
                     </div>
 
-                    <span className="services__button">View More
+                    <span onClick={() => toggleTab(2)} className="services__button">View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    <div className="services__modal">
+                    <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                         <div className="services__modal-content">
-                            <i className="uil uil-times services__modal-close"></i>
+                            <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
                             
                             <h3 className="services__modal-title">Lorem, ipsum.</h3>
                             <p className="services__modal-description">
@@ -149,13 +149,13 @@ const Services = () => {
                         <h3 className="services__title">Lorem, <br /> ipsum dolor.</h3>
                     </div>
 
-                    <span className="services__button">View More
+                    <span onClick={() => toggleTab(3)} className="services__button">View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    <div className="services__modal">
+                    <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                         <div className="services__modal-content">
-                            <i className="uil uil-times services__modal-close"></i>
+                            <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
                             
                             <h3 className="services__modal-title">Lorem, ipsum.</h3>
                             <p className="services__modal-description">
