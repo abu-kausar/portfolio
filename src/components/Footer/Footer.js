@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__container container">
-                <h1 className="footer__title">Md Abu Kausar</h1>
+                <h1 className="footer__title">Md. Abu Kausar</h1>
 
                 <ul className="footer__list">
                     <li><a href="#about" className="footer__link">About</a></li>
@@ -14,11 +14,11 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://linkedin.com/" className="footer__social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/abukausar75/" className="footer__social-link" target="_blank">
                         <i class="bx bxl-linkedin"></i>
                     </a>
 
-                    <a href="https://github.com/" className="footer__social-link" target="_blank">
+                    <a href="https://github.com/abu-kausar" className="footer__social-link" target="_blank">
                         <i class="bx bxl-github"></i>
                     </a>
 
@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
 
                 <span className='footer__copy'>
-                    &#169; Crypticalcoder. All rights reserved 
+                    &#169; 2023 | Md. Abu Kausar | All rights reserved 
                 </span>
             </div>
         </footer>
