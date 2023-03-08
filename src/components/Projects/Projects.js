@@ -1,5 +1,6 @@
 import React from 'react';
 import carDoctor from '../..//Assets/carDoctor.png';
+import pdfConverter from '../..//Assets/pdfConverter.png';
 import defaultImage from '../..//Assets/defaultProjectImage.jpg';
 import './Projects.css';
 
@@ -46,7 +47,7 @@ const Projects = () => {
 
                 <div className="projects__content">
                     <div>
-                        <img className='projectImage' src={defaultImage} alt="" />
+                        <img className='projectImage' src={pdfConverter} alt="" />
                         <h3 className="services__title">PDF Converter</h3>
                     </div>
 
