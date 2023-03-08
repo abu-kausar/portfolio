@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../..//Assets/profile - Copy.jpg';
+import Image from '../..//Assets/about.jpg';
 import Info from './Info';
 import CVFile from '../..//Assets/md_abu_kausar.pdf';
 import './About.css'
