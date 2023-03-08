@@ -7,9 +7,9 @@ import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Qualification from './components/Qualification/Qualification';
 import Scrollup from './components/Scrollup/Scrollup';
-import Services from './components/Services/Services';
+// import Services from './components/Services/Services';
 import Skills from './components/Skills/Skills';
-import Testimonial from './components/TestiMonial/Testimonial';
+// import Testimonial from './components/TestiMonial/Testimonial';
 
 function App() {
   return (
