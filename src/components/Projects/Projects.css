@@ -17,7 +17,7 @@
     width: 100%;
 }
 
-/* .services__icon{
+.services__icon{
     display: block;
     font-size: 2rem;
     color: var(--title-color);
@@ -161,4 +161,4 @@
     .services__content{
         padding-right: 6rem;
     }
-} */
+}
