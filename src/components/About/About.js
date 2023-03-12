@@ -15,7 +15,7 @@ const About = () => {
                 <div className="about__data">
                     <Info />
 
-                    <p className="about__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt explicabo expedita voluptatum quasi eum sit rem deleniti animi recusandae, deserunt hic quibusdam. Perspiciatis fuga cupiditate molestiae consequuntur, et vero dolorem id, assumenda reprehenderit repellendus illo, corporis maxime. Animi, quisquam veniam.</p>
+                    <p className="about__description">I'm working as a Software Engineer (Remote) at Vemate, United Kingdom. I have completed my graduation in Computer Science and Engineering(CSE) at North South University (NSU). In Vemate, my job is to develop smart contract(using solidity), rarely frontend part as well. Besides that I've increased my expertise on MERN stack since last year. I've done lots of small projects and some real time completed projects.</p>
 
                     <a download="" href={CVFile} className="button button--flex">
                         Download CV
