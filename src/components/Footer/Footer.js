@@ -22,7 +22,7 @@ const Footer = () => {
                         <i class="bx bxl-github"></i>
                     </a>
 
-                    <a href="https://instagram.com/" className="footer__social-link" rel="noreferrer" target="_blank">
+                    <a href="https://www.instagram.com/imkausar__/" className="footer__social-link" rel="noreferrer" target="_blank">
                         <i class="bx bxl-instagram"></i>
                     </a>
                 </div>
