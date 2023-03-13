@@ -1,7 +1,7 @@
 import React from 'react';
 import carDoctor from '../..//Assets/carDoctor.png';
 import pdfConverter from '../..//Assets/pdfConverter.png';
-import defaultImage from '../..//Assets/defaultProjectImage.jpg';
+import doctorPortal from '../..//Assets/doctorPortal.png';
 import './Projects.css';
 
 const Projects = () => {
@@ -11,6 +11,23 @@ const Projects = () => {
             <span className='section__subtitle'>What I have done so far</span>
 
             <div className="services__container container grid">
+                <div className="projects__content">
+                    <div>
+                        <img className='projectImage' src={doctorPortal} alt="" />
+                        <h3 className="services__title">Doctor's Portal</h3>
+                    </div>
+
+                    <a href='https://github.com/abu-kausar/doctors-portal-client' className="services__button">Watch Live
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+
+                    <br />
+
+                    <a href='https://github.com/abu-kausar/doctors-portal-client' className="services__button">Source Code
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+                </div>
+
                 <div className="projects__content">
                     <div>
                         <img className='projectImage' src={carDoctor} alt="" />
@@ -24,23 +41,6 @@ const Projects = () => {
                     <br />
 
                     <a href="https://github.com/abu-kausar/car-doctor-client" className="services__button">Source Code
-                        <i className="uil uil-arrow-right services__button-icon"></i>
-                    </a>
-                </div>
-
-                <div className="projects__content">
-                    <div>
-                        <img className='projectImage' src={defaultImage} alt="" />
-                        <h3 className="services__title">Amazon Simple</h3>
-                    </div>
-
-                    <a href='https://github.com/abu-kausar/amazon-simple-app' className="services__button">Watch Live
-                        <i className="uil uil-arrow-right services__button-icon"></i>
-                    </a>
-
-                    <br />
-
-                    <a href='https://github.com/abu-kausar/amazon-simple-app' className="services__button">Source Code
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
                 </div>
