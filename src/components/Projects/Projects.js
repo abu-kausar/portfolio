@@ -17,7 +17,7 @@ const Projects = () => {
                         <h3 className="services__title">Doctor's Portal</h3>
                     </div>
 
-                    <a href='https://github.com/abu-kausar/doctors-portal-client' className="services__button">Watch Live
+                    <a href='https://doctors-portal-2757b.web.app/' className="services__button">Watch Live
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
 
