@@ -1,5 +1,5 @@
 import React from 'react';
-import carDoctor from '../..//Assets/carDoctor.png';
+import moneyManager from '../..//Assets/money-manager.png';
 import pdfConverter from '../..//Assets/pdfConverter.png';
 import doctorPortal from '../..//Assets/doctorPortal.png';
 import './Projects.css';
@@ -30,17 +30,17 @@ const Projects = () => {
 
                 <div className="projects__content">
                     <div>
-                        <img className='projectImage' src={carDoctor} alt="" />
-                        <h3 className="services__title">Car Doctor</h3>
+                        <img className='projectImage' src={moneyManager} alt="" />
+                        <h3 className="services__title">Money Manager</h3>
                     </div>
 
-                    <a href="https://car-doctor-b3036.web.app/" className="services__button">Watch Live
+                    <a href="https://github.com/abu-kausar/expense-tracker-frontend" className="services__button">Watch Live
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
 
                     <br />
 
-                    <a href="https://github.com/abu-kausar/car-doctor-client" className="services__button">Source Code
+                    <a href="https://github.com/abu-kausar/expense-tracker-frontend" className="services__button">Source Code
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
                 </div>
