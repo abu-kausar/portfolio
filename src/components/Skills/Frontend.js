@@ -3,7 +3,7 @@ import React from 'react';
 const Frontend = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Frontent Developer</h3>
+            <h3 className="skills__title">Frontend Development</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
@@ -11,25 +11,23 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <div className="skills_name">HTML</div>
+                            <div className="skills_name">ReactJS, NextJS</div>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-
-                        <div>
-                            <div className="skills__name">CSS</div>
-                            <span className="skills__level">Basic</span>
-                        </div>
-                    </div>
-
                     <div className="skills__data">
                         <i className='bx bx-badge-check'></i>
 
                         <div>
                             <div className="skills_name">JavaScript</div>
+                            <span className="skills__level">Intermediate</span>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i className='bx bx-badge-check'></i>
+
+                        <div>
+                            <div className="skills_name">HTML, CSS</div>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
@@ -41,8 +39,8 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <div className="skills_name">React</div>
-                            <span className="skills__level">Basic</span>
+                            <div className="skills_name">Styled Components</div>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
 
@@ -59,7 +57,7 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <div className="skills_name">Tailwind</div>
+                            <div className="skills_name">Tailwind CSS</div>
                             <span className="skills__level">Basic</span>
                         </div>
                     </div>

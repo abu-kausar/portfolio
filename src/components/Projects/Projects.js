@@ -1,6 +1,6 @@
 import React from 'react';
+import pureSound from '../..//Assets/puresound.png';
 import moneyManager from '../..//Assets/money-manager.png';
-import pdfConverter from '../..//Assets/pdfConverter.png';
 import doctorPortal from '../..//Assets/doctorPortal.png';
 import './Projects.css';
 
@@ -13,17 +13,34 @@ const Projects = () => {
             <div className="services__container container grid">
                 <div className="projects__content">
                     <div>
-                        <img className='projectImage' src={doctorPortal} alt="" />
-                        <h3 className="services__title">Doctor's Portal</h3>
+                        <img className='projectImage' src={pureSound} alt="" />
+                        <h3 className="services__title">Pure Sounds</h3>
                     </div>
 
-                    <a href='https://doctors-portal-2757b.web.app/' className="services__button">Watch Live
+                    <a href="https://www.puresounds.cloud/" target='blank' className="services__button">Watch Live
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
 
                     <br />
 
-                    <a href='https://github.com/abu-kausar/doctors-portal-client' className="services__button">Source Code
+                    <a href="https://github.com/BEM-Group/pure-sounds-frontend" target='blank' className="services__button">Source Code
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+                </div>
+
+                <div className="projects__content">
+                    <div>
+                        <img className='projectImage' src={doctorPortal} alt="" />
+                        <h3 className="services__title">Doctor's Portal</h3>
+                    </div>
+
+                    <a href='https://doctors-portal-2757b.web.app/' target='blank' className="services__button">Watch Live
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+
+                    <br />
+
+                    <a href='https://github.com/abu-kausar/doctors-portal-client' target='blank' className="services__button">Source Code
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
                 </div>
@@ -34,30 +51,13 @@ const Projects = () => {
                         <h3 className="services__title">Money Manager</h3>
                     </div>
 
-                    <a href="https://github.com/abu-kausar/expense-tracker-frontend" className="services__button">Watch Live
+                    <a href='https://github.com/abu-kausar/expense-tracker-frontend' target='blank' className="services__button">Watch Live
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
 
                     <br />
 
-                    <a href="https://github.com/abu-kausar/expense-tracker-frontend" className="services__button">Source Code
-                        <i className="uil uil-arrow-right services__button-icon"></i>
-                    </a>
-                </div>
-
-                <div className="projects__content">
-                    <div>
-                        <img className='projectImage' src={pdfConverter} alt="" />
-                        <h3 className="services__title">PDF Converter</h3>
-                    </div>
-
-                    <a href='https://pdf-converterr.netlify.app/' className="services__button">Watch Live
-                        <i className="uil uil-arrow-right services__button-icon"></i>
-                    </a>
-
-                    <br />
-
-                    <a href='https://github.com/abu-kausar/PDF-Converter' className="services__button">Source Code
+                    <a href='https://github.com/abu-kausar/expense-tracker-frontend' target='blank' className="services__button">Source Code
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
                 </div>

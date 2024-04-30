@@ -5,7 +5,7 @@ const Data = () => {
         <div className="home__data">
             <h1 className="home__title">Md Abu Kausar</h1>
             <h3 className='home__subtitle'>Frontend Developer</h3>
-            <p className="home__description">I want to grow myself as a Software Developer from Dhaka, Bangladesh who love Programming, Developing and Passionate about learning new technologies. I'm a fast learner and can quickly integrate into team.</p>
+            <p className="home__description">I want to grow myself as a Software Developer from Mymensingh, Bangladesh who love Programming, Developing and Passionate about learning new technologies. I'm a fast learner and can quickly integrate into team.</p>
             <a href="#contact" className="button button-flex">
                 Say Hello!
                 <svg
