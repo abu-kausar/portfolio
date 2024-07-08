@@ -2,13 +2,14 @@ import React from 'react';
 import pureSound from '../..//Assets/puresound.png';
 import moneyManager from '../..//Assets/money-manager.png';
 import doctorPortal from '../..//Assets/doctorPortal.png';
+import motoHub from '../..//Assets/motoHub.png';
 import './Projects.css';
 
 const Projects = () => {
     return (
         <section className="projects section" id='projects'>
             <h1 className="section__title">Projects</h1>
-            <span className='section__subtitle'>What I have done so far</span>
+            <span className='section__subtitle'>A glimpse of some projects</span>
 
             <div className="services__container container grid">
                 <div className="projects__content">
@@ -58,6 +59,23 @@ const Projects = () => {
                     <br />
 
                     <a href='https://github.com/abu-kausar/expense-tracker-frontend' target='blank' className="services__button">Source Code
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+                </div>
+
+                <div className="projects__content">
+                    <div>
+                        <img className='projectImage' src={motoHub} alt="" />
+                        <h3 className="services__title">MotoHub</h3>
+                    </div>
+
+                    <a href='https://motohub-rosy.vercel.app/' target='blank' className="services__button">Watch Live
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+
+                    <br />
+
+                    <a href='https://github.com/abu-kausar/motohub' target='blank' className="services__button">Source Code
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
                 </div>

@@ -47,6 +47,7 @@
 } */
 
 .home__description{
+    text-indent: 50px;
     max-width: 400px;
     margin-bottom: var(--mb-3);
 }

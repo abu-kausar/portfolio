@@ -16,11 +16,17 @@ const About = () => {
                 <div className="about__data">
                     <Info />
 
-                    <p className="about__description">I have completed my graduation in Computer Science and Engineering(CSE) at North South University (NSU). I'm currently working as a Software Engineer (Remote) at BEM Group Agency, Dubai Silicone Oasis, Dubai, UAE. In BEM Group, I am currently working on copyright free sound effects platform where user can listen, download and purchase sound effects uploaded by some studio owner. I love cooking, travelling, playing cricket in leisure time.</p>
+                    <p className="about__description">I'm a passionate Software Engineer specializing in front-end development with a focus on React.js and Next.js. I graduated with a degree in Computer Science and Engineering from North South University (NSU), and I'm currently working remotely for BEM Group Agency, located in Dubai Silicon Oasis, Dubai, UAE. <br /> <br />
+
+                        At BEM Group, I'm part of an exciting project developing a platform for copyright-free sound effects. This platform allows users to listen, download, and purchase sound effects uploaded by various studio owners, providing a rich and user-friendly experience. <br /> <br />
+
+                        In my free time, I enjoy cooking, traveling to new places, and playing cricket. My diverse interests help me maintain a balanced life and bring creativity and energy to my professional work. <br /> <br />
+
+                        Feel free to explore my portfolio to see some of my projects and learn more about my professional journey. Let's connect and create something amazing together!</p>
 
                     <a download="" href={CVFile} className="button button--flex">
                         Download CV
-                        <IconComponent.DownloadIcon/>
+                        <IconComponent.DownloadIcon />
                     </a>
                 </div>
             </div>
