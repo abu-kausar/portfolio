@@ -24,7 +24,7 @@ const About = () => {
 
                         Feel free to explore my portfolio to see some of my projects and learn more about my professional journey. Let's connect and create something amazing together!</p>
 
-                    <a download="" href={CVFile} className="button button--flex">
+                    <a download={'md_abu_kausar'} href={CVFile} className="button button--flex">
                         Download CV
                         <IconComponent.DownloadIcon />
                     </a>
