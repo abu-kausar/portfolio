@@ -1,4 +1,5 @@
 import React from 'react';
+import invoice from '../../Assets/invoiceus.png';
 import pureSound from '../..//Assets/puresound.png';
 import moneyManager from '../..//Assets/money-manager.png';
 import doctorPortal from '../..//Assets/doctorPortal.png';
@@ -12,6 +13,7 @@ const Projects = () => {
             <span className='section__subtitle'>A glimpse of some projects</span>
 
             <div className="services__container container grid">
+                {/* puresounds project */}
                 <div className="projects__content">
                     <div>
                         <img className='projectImage' src={pureSound} alt="" />
@@ -29,6 +31,43 @@ const Projects = () => {
                     </a>
                 </div>
 
+                {/* invoice us project */}
+                <div className="projects__content">
+                    <div>
+                        <img className='projectImage' src={invoice} alt="" />
+                        <h3 className="services__title">Invoice us</h3>
+                    </div>
+
+                    <a href="https://invoiceus.com/" target='blank' className="services__button">Watch Live
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+
+                    <br />
+
+                    <a href="https://github.com/BEM-Group/invoiceus-client" target='blank' className="services__button">Source Code
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+                </div>
+
+                {/* motohub */}
+                <div className="projects__content">
+                    <div>
+                        <img className='projectImage' src={motoHub} alt="" />
+                        <h3 className="services__title">MotoHub</h3>
+                    </div>
+
+                    <a href='https://motohub-rosy.vercel.app/' target='blank' className="services__button">Watch Live
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+
+                    <br />
+
+                    <a href='https://github.com/abu-kausar/motohub' target='blank' className="services__button">Source Code
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+                </div>
+
+                {/* doctor's appointment */}
                 <div className="projects__content">
                     <div>
                         <img className='projectImage' src={doctorPortal} alt="" />
@@ -46,6 +85,7 @@ const Projects = () => {
                     </a>
                 </div>
 
+                {/* money manager */}
                 <div className="projects__content">
                     <div>
                         <img className='projectImage' src={moneyManager} alt="" />
@@ -59,23 +99,6 @@ const Projects = () => {
                     <br />
 
                     <a href='https://github.com/abu-kausar/expense-tracker-frontend' target='blank' className="services__button">Source Code
-                        <i className="uil uil-arrow-right services__button-icon"></i>
-                    </a>
-                </div>
-
-                <div className="projects__content">
-                    <div>
-                        <img className='projectImage' src={motoHub} alt="" />
-                        <h3 className="services__title">MotoHub</h3>
-                    </div>
-
-                    <a href='https://motohub-rosy.vercel.app/' target='blank' className="services__button">Watch Live
-                        <i className="uil uil-arrow-right services__button-icon"></i>
-                    </a>
-
-                    <br />
-
-                    <a href='https://github.com/abu-kausar/motohub' target='blank' className="services__button">Source Code
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
                 </div>

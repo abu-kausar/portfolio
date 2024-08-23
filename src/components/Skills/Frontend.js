@@ -48,8 +48,8 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <div className="skills_name">Bootstrap</div>
-                            <span className="skills__level">Intermediate</span>
+                            <div className="skills_name">Typescript</div>
+                            <span className="skills__level">Basic</span>
                         </div>
                     </div>
 
