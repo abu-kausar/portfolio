@@ -4,6 +4,7 @@ import pureSound from '../..//Assets/puresound.png';
 import moneyManager from '../..//Assets/money-manager.png';
 import doctorPortal from '../..//Assets/doctorPortal.png';
 import motoHub from '../..//Assets/motoHub.png';
+import autoFin from '../../Assets/autoFin.png';
 import './Projects.css';
 
 const Projects = () => {
@@ -63,6 +64,24 @@ const Projects = () => {
                     <br />
 
                     <a href='https://github.com/abu-kausar/motohub' target='blank' className="services__button">Source Code
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+                </div>
+
+                {/* autofin */}
+                <div className="projects__content">
+                    <div>
+                        <img className='projectImage' src={autoFin} alt="" />
+                        <h3 className="services__title">Autofin</h3>
+                    </div>
+
+                    <a href='https://autofin-three.vercel.app/' target='blank' className="services__button">Watch Live
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </a>
+
+                    <br />
+
+                    <a href='https://github.com/abu-kausar/autofin' target='blank' className="services__button">Source Code
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
                 </div>
