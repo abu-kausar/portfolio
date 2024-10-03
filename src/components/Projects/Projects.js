@@ -39,7 +39,7 @@ const Projects = () => {
                         <h3 className="services__title">Invoice us</h3>
                     </div>
 
-                    <a href="https://invoiceus.com/" target='blank' className="services__button">Watch Live
+                    <a href="https://dev.invoiceus.com/" target='blank' className="services__button">Watch Live
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
 
