@@ -21,7 +21,7 @@ const Projects = () => {
                         <h3 className="services__title">Pure Sounds</h3>
                     </div>
 
-                    <a href="https://www.puresounds.cloud/" target='blank' className="services__button">Watch Live
+                    <a href="http://puresounds.cloud/discover" target='blank' className="services__button">Watch Live
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </a>
 
